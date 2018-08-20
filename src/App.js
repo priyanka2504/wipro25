@@ -67,22 +67,50 @@ const routes = [
 ];
 
 class App extends Component {
+
+  closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+
+  openNav() {
+   document.getElementById("mySidenav").style.width = "150px";
+  }
+
   render() {
     return (
       <div className="App">
         <Router>
           <div>
-            <div class="sidebar">
-              <NavLink activeClassName='active' exact to="/">Home</NavLink>
-              <NavLink activeClassName='active' to="/html">HTML</NavLink>
-              <NavLink activeClassName='active' to="/css">CSS</NavLink>
-              <NavLink activeClassName='active' to="/javascript">JavaScript</NavLink>
-              <NavLink activeClassName='active' to="/database">MongoDB</NavLink>
-              <NavLink activeClassName='active' to="/frameworks">Frameworks</NavLink>
-              <NavLink activeClassName='active' to="/build-tools">Build Tools</NavLink>
-              <NavLink activeClassName='active' to="/package-manager">Package Manager</NavLink>
-              <NavLink activeClassName='active' to="/debugging-tools">Debugging Tools</NavLink>
-              <NavLink activeClassName='active' to="/exercises">Exercises</NavLink>
+            <div clasName="screen">
+              <div class="sidebar">
+                <NavLink activeClassName='active' exact to="/">Home</NavLink>
+                <NavLink activeClassName='active' to="/html">HTML</NavLink>
+                <NavLink activeClassName='active' to="/css">CSS</NavLink>
+                <NavLink activeClassName='active' to="/javascript">JavaScript</NavLink>
+                <NavLink activeClassName='active' to="/database">MongoDB</NavLink>
+                <NavLink activeClassName='active' to="/frameworks">Frameworks</NavLink>
+                <NavLink activeClassName='active' to="/build-tools">Build Tools</NavLink>
+                <NavLink activeClassName='active' to="/package-manager">Package Manager</NavLink>
+                <NavLink activeClassName='active' to="/debugging-tools">Debugging Tools</NavLink>
+                <NavLink activeClassName='active' to="/exercises">Exercises</NavLink>
+              </div>
+            </div>
+
+            <div className="mobileView">
+              <div id="mySidenav" className="sidenav">
+                <span className="closebtn" onClick={this.closeNav.bind(this)}>&times;</span> <br />
+                <NavLink activeClassName='active' exact to="/">Home</NavLink>
+                <NavLink activeClassName='active' to="/html">HTML</NavLink>
+                <NavLink activeClassName='active' to="/css">CSS</NavLink>
+                <NavLink activeClassName='active' to="/javascript">JavaScript</NavLink>
+                <NavLink activeClassName='active' to="/database">MongoDB</NavLink>
+                <NavLink activeClassName='active' to="/frameworks">Frameworks</NavLink>
+                <NavLink activeClassName='active' to="/build-tools">Build Tools</NavLink>
+                <NavLink activeClassName='active' to="/package-manager">Package Manager</NavLink>
+                <NavLink activeClassName='active' to="/debugging-tools">Debugging Tools</NavLink>
+                <NavLink activeClassName='active' to="/exercises">Exercises</NavLink>
+              </div>
+              <span onClick={this.openNav.bind(this)}>&#9776; </span>
             </div>
             <div style={{ display: "flex" }}>
               <div

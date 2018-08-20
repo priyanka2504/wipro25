@@ -21,7 +21,7 @@ class Reactstrap extends Component {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="text-primary">
+                                <tr>
                                         <th> 1 </th>
                                         <td> <a href="https://reactstrap.github.io/" target="_blank" rel="noopener noreferrer"> Reactstrap </a> </td>
                                         <td> A complete documentation </td>

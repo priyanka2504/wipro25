@@ -21,7 +21,7 @@ class DebuggingTools extends Component {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 1 </th>
                                         <td> <a href="https://developers.google.com/web/tools/chrome-devtools/" target="_blank" rel="noopener noreferrer"> Chrome DevTools  </a> </td>
                                         <td> Detailed documentation </td>

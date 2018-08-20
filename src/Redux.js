@@ -21,27 +21,27 @@ class Redux extends Component {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="text-primary">
+                                <tr>
                                         <th> 1 </th>
                                         <td> <a href="https://redux.js.org/" target="_blank" rel="noopener noreferrer"> Redux </a> </td>
                                         <td> A complete documentation with examples </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 2 </th>
                                         <td> <a href="http://devguides.io/redux/" target="_blank" rel="noopener noreferrer"> Dev Guides </a> </td>
                                         <td> Detailed explanation on Redux </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 3 </th>
                                         <td> <a href="https://medium.freecodecamp.org/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6" target="_blank" rel="noopener noreferrer"> Medium </a> </td>
                                         <td> Guide for beginners </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 4 </th>
                                         <td> <a href="https://www.sohamkamani.com/blog/2017/03/31/react-redux-connect-explained/" target="_blank" rel="noopener noreferrer"> React-Redux-connect </a> </td>
                                         <td> A better understanding of connect() </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
 
                                         <th> 5 </th>
                                         <td> <a href="https://dev.to/domitriusanthony/explain-reduxs-connect-and-mapstatetoprops-like-im-5--4f0a" target="_blank" rel="noopener noreferrer"> React-Redux-mapStateToProps </a> </td>

@@ -22,17 +22,17 @@ designed for building single-page, multi-page, and hybrid web applications. </h5
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="text-primary">
+                                <tr>
                                         <th> 1 </th>
                                         <td> <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction" target="_blank" rel="noopener noreferrer"> MDN | Mozilla </a> </td>
                                         <td> Express/Node explained </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 2 </th>
                                         <td> <a href="https://expressjs.com/en/guide/routing.html" target="_blank" rel="noopener noreferrer"> Express Routing </a> </td>
                                         <td> Express documentation </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 3 </th>
                                         <td> <a href="https://medium.com/@LindaVivah/the-beginners-guide-understanding-node-js-express-js-fundamentals-e15493462be1" target="_blank" rel="noopener noreferrer">  Medium </a> </td>
                                         <td> THE BEGINNER GUIDE: Understanding Node.js & Express.js fundamentals </td>

@@ -21,12 +21,12 @@ class Gulp extends Component {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="text-primary">
+                                <tr>
                                         <th> 1 </th>
                                         <td> <a href="https://github.com/gulpjs/gulp/blob/v3.9.1/docs/API.md" target="_blank" rel="noopener noreferrer"> GitHub documentation </a> </td>
                                         <td> A complete documentation </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 2 </th>
                                         <td> <a href="https://www.sitepoint.com/introduction-gulp-js/" target="_blank" rel="noopener noreferrer"> Introduction to Gulp </a> </td>
                                         <td> Detailed description </td>

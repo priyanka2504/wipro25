@@ -22,17 +22,17 @@ It's used to add structure and form to text, images, and more. </h5>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="text-primary">
+                                <tr>
                                         <th> 1 </th>
                                         <td> <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer"> W3 Schools </a> </td>
                                         <td> Covers all topics with example code and online editor & questions for self evaluation </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 2 </th>
                                         <td> <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank" rel="noopener noreferrer"> MDN | Mozilla </a> </td>
                                         <td> Section wise description in detail that covers in and out about the topic </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 3 </th>
                                         <td> <a href="https://www.codecademy.com/learn/learn-html" target="_blank" rel="noopener noreferrer"> Codecademy </a> </td>
                                         <td> Gives real time scenarios and online editor to practice </td>

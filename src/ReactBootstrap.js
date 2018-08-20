@@ -21,7 +21,7 @@ class ReactBootstrap extends Component {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="text-primary">
+                                <tr>
                                         <th> 1 </th>
                                         <td> <a href="https://react-bootstrap.github.io/getting-started/introduction/" target="_blank" rel="noopener noreferrer"> React Bootstrap </a> </td>
                                         <td> A complete documentation </td>

@@ -23,7 +23,7 @@ Modules are JavaScript libraries you can include in your project.</h5>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 1 </th>
                                         <td> <a href="https://docs.npmjs.com/getting-started/what-is-npm" target="_blank" rel="noopener noreferrer"> NPM </a> </td>
                                         <td> Detailed documentation </td>

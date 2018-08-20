@@ -23,12 +23,12 @@ class Node extends Component {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="text-primary">
+                                <tr>
                                         <th> 1 </th>
                                         <td> <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer"> Node.js </a> </td>
                                         <td> Complete documentation about nodeJS </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 2 </th>
                                         <td> <a href=" https://developer.mozilla.org/en-US/docs/Learn/Server-side/Node_server_without_framework" target="_blank" rel="noopener noreferrer"> NodeJS - MDN | Mozilla </a> </td>
                                         <td> Provides a file server built with pure Node.js without the use of a framework </td>

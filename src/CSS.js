@@ -21,12 +21,12 @@ class CSS extends Component {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 1 </th>
                                         <td> <a href="https://www.w3schools.com/css/" target="_blank" rel="noopener noreferrer"> W3 Schools </a> </td>
                                         <td> Covers all topics with example code and online editor & questions for self evaluation </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 2 </th>
                                         <td> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank" rel="noopener noreferrer"> MDN | Mozilla </a> </td>
                                         <td> Section wise description in detail that covers in and out about the topic </td>

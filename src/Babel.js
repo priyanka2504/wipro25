@@ -21,7 +21,7 @@ class Babel extends Component {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 1 </th>
                                         <td> <a href="https://babeljs.io/docs/en" target="_blank" rel="noopener noreferrer"> Babel </a> </td>
                                         <td> A complete documentation </td>

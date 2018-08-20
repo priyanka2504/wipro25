@@ -22,12 +22,12 @@ yet it is also capable of transforming, bundling, or packaging just about any re
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="text-primary">
+                                <tr>
                                         <th> 1 </th>
                                         <td> <a href="https://webpack.js.org/concepts/" target="_blank" rel="noopener noreferrer"> Webpack </a> </td>
                                         <td> A complete documentation </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 2 </th>
                                         <td> <a href="https://medium.com/javascript-training/beginner-s-guide-to-webpack-b1f1a3638460" target="_blank" rel="noopener noreferrer"> Medium </a> </td>
                                         <td> Beginner's guide to Webpack </td>

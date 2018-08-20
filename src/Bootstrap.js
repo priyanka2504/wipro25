@@ -21,17 +21,17 @@ class Bootstrap extends Component {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 1 </th>
                                         <td> <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/" target="_blank" rel="noopener noreferrer"> Bootstrap </a> </td>
                                         <td> A complete documentation </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 2 </th>
                                         <td> <a href="https://www.w3schools.com/bootstrap/" target="_blank" rel="noopener noreferrer"> W3 Schools - B3 </a> </td>
                                         <td> Tutorial for Bootstrap 3 </td>
                                     </tr>
-                                    <tr className="text-primary">
+                                    <tr>
                                         <th> 3 </th>
                                         <td> <a href="https://www.w3schools.com/bootstrap4/" target="_blank" rel="noopener noreferrer"> W3 Schools - b4 </a> </td>
                                         <td> Tutorial for Bootstrap 4 </td>
