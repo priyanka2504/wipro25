@@ -67,9 +67,13 @@ const routes = [
 ];
 
 class App extends Component {
+  constructor () {
+    super(); 
+    year:'';
+  }
 
   closeNav() {
-    document.getElementById("topnav").style.width = "0";
+    document.getElementById("myTopnav").style.width = "0";
   }
 
   openNav() {
@@ -80,6 +84,13 @@ class App extends Component {
         x.className = "topnav";
     }
   }
+  componentWillMount() {
+    let date = new Date();
+    this.setState ({
+      year: date.getFullYear()
+    })
+  }
+
 
   render() {
     return (
@@ -102,6 +113,9 @@ class App extends Component {
             </div>
 
 <div className="topnav" id="myTopnav">
+<span className="span" id="span" onClick={this.openNav.bind(this)}>&#9776; </span> 
+<br/><br/>
+
 <NavLink activeClassName='active' exact to="/">Home</NavLink>
                 <NavLink activeClassName='active' to="/html">HTML</NavLink>
                 <NavLink activeClassName='active' to="/css">CSS</NavLink>
@@ -112,7 +126,7 @@ class App extends Component {
                 <NavLink activeClassName='active' to="/package-manager">Package Manager</NavLink>
                 <NavLink activeClassName='active' to="/debugging-tools">Debugging Tools</NavLink>
                 <NavLink activeClassName='active' to="/exercises">Exercises</NavLink>
-                <span className="span" onClick={this.openNav.bind(this)}>&#9776; </span> 
+              
 </div>
 
 
@@ -153,7 +167,7 @@ class App extends Component {
                 <span class="text-white"> Powered by Wipro Limited</span> <br/>
                 <span class="text-white"> Developed by 
              <u> <a className="text-white" href="https://priyanka-portfolio.netlify.com" target="_blank" rel="noopener noreferrer"> Priyanka Suresh </a> </u>
-                &copy; 2018
+                &copy; {this.state.year}
                 
                  </span> 
               
