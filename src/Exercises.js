@@ -5,14 +5,15 @@ class Exercises extends Component {
     render() {
         return (
             <div className="exercises">
-                <h1 className="text-success"><b>Tasks Executed</b></h1>
+                <h1 className="text-dark"><b>Tasks Executed</b></h1>
                 <div className="links">
-                    <h5 className="text-success"> Below are the various tasks performed using all the above mentioned technologies </h5>
+                    <h5 className="text-dark"> Below are the various tasks performed using all the above mentioned technologies </h5>
                     <div className="row">
                         <div className='col-md-10 order-md-5 mb-5'>
-                            <table className="table table-bordered table-stripped">
+                        <div className="links">
+                            <table className="table table-borderles table-stripped">
                                 <thead align="center">
-                                    <tr className="text-danger">
+                                    <tr className="text-white bg-dark">
                                         <th> # </th>
                                         <th> Project Title </th>
                                         <th> Technologies Used </th>
@@ -106,6 +107,7 @@ class Exercises extends Component {
                                     </tr>
                                 </tbody>
                             </table>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,38 +1,48 @@
 import React, { Component } from 'react';
 import './App.css';
+import preview from './preview.png';
 
 class Gulp extends Component {
     render() {
         return (
             <div className="gulp">
-                <h1 className="text-success"><b>Gulp</b></h1>
+                <h1 className="text-dark"><b>Gulp</b></h1>
                 <p className="text-secondary">JavaScript toolkit - Task Runner </p>
                 <h5 className="text-dark"> Gulp is a task runner built on Node.js and npm, used for automation of time-consuming and repetitive tasks involved in web development. </h5>
                 <div className="links">
-                    <h5 className="text-success"> Below links may help you learn Gulp better </h5>
+                    <h5 className="text-dark"> Below links may help you learn Gulp better </h5>
                     <div className="row">
                         <div className='col-md-10 order-md-5 mb-5'>
-                            <table className="table table-bordered table-stripped" >
-                                <thead align="center">
-                                    <tr className="text-danger">
-                                        <th> # </th>
-                                        <th scope="col"> Links </th>
-                                        <th scope="col"> Description </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                        <th> 1 </th>
-                                        <td> <a href="https://github.com/gulpjs/gulp/blob/v3.9.1/docs/API.md" target="_blank" rel="noopener noreferrer"> GitHub documentation </a> </td>
-                                        <td> A complete documentation </td>
-                                    </tr>
-                                    <tr>
-                                        <th> 2 </th>
-                                        <td> <a href="https://www.sitepoint.com/introduction-gulp-js/" target="_blank" rel="noopener noreferrer"> Introduction to Gulp </a> </td>
-                                        <td> Detailed description </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div className="links">
+                                <table className="table table-borderles table-stripped" >
+                                    <thead align="center">
+                                        <tr className="text-white bg-dark">
+                                            <th> # </th>
+                                            <th scope="col"> Title </th>
+                                            <th scope="col"> Description </th>
+                                            <th> </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td> 1 </td>
+                                            <td> GitHub documentation </td>
+                                            <td> A complete documentation </td>
+                                            <td align="center"> <a href="https://github.com/gulpjs/gulp/blob/v3.9.1/docs/API.md" target="_blank" rel="noopener noreferrer">
+                                                <img src={preview} alt="preview" /> </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td> 2 </td>
+                                            <td> Introduction to Gulp </td>
+                                            <td> Detailed description </td>
+                                            <td align="center" > <a href="https://www.sitepoint.com/introduction-gulp-js/" target="_blank" rel="noopener noreferrer">
+                                                <img src={preview} alt="preview" /> </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -13,7 +13,7 @@ class Frameworks extends Component {
     render() {
         return (
             <div>
-                <h1 className="text-success"><b> JavaScript Frameworks </b></h1>
+                <h1 className="text-dark"><b> JavaScript Frameworks </b></h1>
                 <h5 className="text-dark"> These are the list of JavaScript frameworks discussed: </h5>
                 <Router>
                     <div>

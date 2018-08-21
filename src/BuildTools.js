@@ -9,7 +9,7 @@ class BuildTools extends Component {
     render() {
         return (
             <div>
-                <h1 className="text-success"><b> Build Tools </b></h1>
+                <h1 className="text-dark"><b> Build Tools </b></h1>
                 <h5 className="text-dark"> These are the list of build tools discussed: </h5>
                 <Router>
                     <div>

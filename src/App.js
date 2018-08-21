@@ -69,11 +69,16 @@ const routes = [
 class App extends Component {
 
   closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("topnav").style.width = "0";
   }
 
   openNav() {
-   document.getElementById("mySidenav").style.width = "150px";
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
   }
 
   render() {
@@ -96,10 +101,8 @@ class App extends Component {
               </div>
             </div>
 
-            <div className="mobileView">
-              <div id="mySidenav" className="sidenav">
-                <span className="closebtn" onClick={this.closeNav.bind(this)}>&times;</span> <br />
-                <NavLink activeClassName='active' exact to="/">Home</NavLink>
+<div className="topnav" id="myTopnav">
+<NavLink activeClassName='active' exact to="/">Home</NavLink>
                 <NavLink activeClassName='active' to="/html">HTML</NavLink>
                 <NavLink activeClassName='active' to="/css">CSS</NavLink>
                 <NavLink activeClassName='active' to="/javascript">JavaScript</NavLink>
@@ -109,9 +112,13 @@ class App extends Component {
                 <NavLink activeClassName='active' to="/package-manager">Package Manager</NavLink>
                 <NavLink activeClassName='active' to="/debugging-tools">Debugging Tools</NavLink>
                 <NavLink activeClassName='active' to="/exercises">Exercises</NavLink>
-              </div>
-              <span onClick={this.openNav.bind(this)}>&#9776; </span>
-            </div>
+                <span className="span" onClick={this.openNav.bind(this)}>&#9776; </span> 
+</div>
+
+
+
+
+            {/* </div> */}
             <div style={{ display: "flex" }}>
               <div
                 style={{
@@ -141,6 +148,17 @@ class App extends Component {
             </div>
           </div>
         </Router>
+        <footer class="footer">
+                <div class="containers">
+                <span class="text-white"> Powered by Wipro Limited</span> <br/>
+                <span class="text-white"> Developed by 
+             <u> <a className="text-white" href="https://priyanka-portfolio.netlify.com" target="_blank" rel="noopener noreferrer"> Priyanka Suresh </a> </u>
+                &copy; 2018
+                
+                 </span> 
+              
+                </div>
+                </footer>
       </div>
     );
   }
