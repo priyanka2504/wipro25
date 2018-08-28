@@ -11,6 +11,7 @@ import Exercises from './Exercises';
 import PackageManager from './PackageManager';
 import Database from './Database';
 import DebuggingTools from './DebuggingTools';
+import Coding from './Coding';
 
 const routes = [
   {
@@ -32,6 +33,11 @@ const routes = [
     path: "/javascript",
     exact: true,
     main: () => <JavaScript />
+  },
+  {
+    path: "/codingGuidelines",
+    exact: true,
+    main: () => <Coding />
   },
   {
     path: "/database",
@@ -103,6 +109,7 @@ class App extends Component {
                 <NavLink activeClassName='active' to="/html">HTML</NavLink>
                 <NavLink activeClassName='active' to="/css">CSS</NavLink>
                 <NavLink activeClassName='active' to="/javascript">JavaScript</NavLink>
+                <NavLink activeClassName='active' to="/codingGuidelines">Coding Guidelines</NavLink>
                 <NavLink activeClassName='active' to="/database">MongoDB</NavLink>
                 <NavLink activeClassName='active' to="/frameworks">Frameworks</NavLink>
                 <NavLink activeClassName='active' to="/build-tools">Build Tools</NavLink>
@@ -120,6 +127,7 @@ class App extends Component {
                 <NavLink activeClassName='active' to="/html">HTML</NavLink>
                 <NavLink activeClassName='active' to="/css">CSS</NavLink>
                 <NavLink activeClassName='active' to="/javascript">JavaScript</NavLink>
+                <NavLink activeClassName='active' to="/codingGuidelines">Coding Guidelines</NavLink>
                 <NavLink activeClassName='active' to="/database">MongoDB</NavLink>
                 <NavLink activeClassName='active' to="/frameworks">Frameworks</NavLink>
                 <NavLink activeClassName='active' to="/build-tools">Build Tools</NavLink>

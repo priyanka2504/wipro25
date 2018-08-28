@@ -104,6 +104,7 @@ class JavaScript extends Component {
                                                 <img src={preview} alt="preview" /> </a>
                                             </td>
                                         </tr>
+                                       
                                     </tbody>
                                 </table>
                             </div>
