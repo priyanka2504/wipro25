@@ -27,30 +27,30 @@ class CSS extends Component {
                                     <tbody>
                                         <tr>
                                             <td> 1 </td>
-                                            <td>  HTML/CSS Style Guide </td>
-                                            <td> Code Guidelines for HTML & CSS </td>
+                                            <td>  Code Guidelines for HTML & CSS </td>
+                                            <td> HTML/CSS Style Guide </td>
                                             <td align="center" > <a href="https://google.github.io/styleguide/htmlcssguide.html" target="_blank" rel="noopener noreferrer">
                                                 <img src={preview} alt="preview" /> </a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td> 2 </td>
-                                            <td>  JavaScript Style Guide </td>
-                                            <td> Code Guidelines for JavaScript </td>
+                                            <td>  Code Guidelines for JavaScript </td>
+                                            <td> JavaScript Style Guide </td>
                                             <td align="center" > <a href="https://google.github.io/styleguide/jsguide.html" target="_blank" rel="noopener noreferrer">
                                                 <img src={preview} alt="preview" /> </a> </td>
                                         </tr>
                                         <tr>
                                             <td> 3 </td>
-                                            <td>  Airbnb CSS / Sass Styleguide </td>
-                                            <td> Code Guidelines for CSS & SASS </td>
+                                            <td>  Code Guidelines for CSS & SASS  </td>
+                                            <td> Airbnb CSS / Sass Styleguide </td>
                                             <td align="center" > <a href="https://github.com/airbnb/css" target="_blank" rel="noopener noreferrer">
                                                 <img src={preview} alt="preview" /> </a> </td>
                                         </tr>
                                         <tr>
                                             <td> 4 </td>
-                                            <td>  Airbnb JavaScript Style Guide </td>
-                                            <td> Code Guidelines for JavaScript </td>
+                                            <td>  Code Guidelines for JavaScript  </td>
+                                            <td> Airbnb JavaScript Style Guide </td>
                                             <td align="center" > <a href="https://github.com/airbnb/javascript" target="_blank" rel="noopener noreferrer">
                                                 <img src={preview} alt="preview" /> </a> </td>
                                         </tr>
