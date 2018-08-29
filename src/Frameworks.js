@@ -12,7 +12,7 @@ import Reactstrap from './Reactstrap';
 class Frameworks extends Component {
     render() {
         return (
-            <div>
+            <div class="content">
                 <h1 className="text-dark"><b> JavaScript Frameworks </b></h1>
                 <h5 className="text-dark"> These are the list of JavaScript frameworks discussed: </h5>
                 <Router>

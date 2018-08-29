@@ -5,7 +5,7 @@ import preview from './preview.png';
 class JavaScript extends Component {
     render() {
         return (
-            <div className="javascript">
+            <div class="content">
                 <h1 className="text-dark"><b>JavaScript</b></h1>
                 <p className="text-secondary">To create interactive effects within web browsers</p>
                 <h5 className="text-dark"> The new version of JavaScript is called as <b> ECMAScript 6 (ES6) </b> which has few enhanced

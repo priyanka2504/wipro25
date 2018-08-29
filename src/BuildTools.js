@@ -8,7 +8,7 @@ import Babel from './Babel';
 class BuildTools extends Component {
     render() {
         return (
-            <div>
+            <div class="content">
                 <h1 className="text-dark"><b> Build Tools </b></h1>
                 <h5 className="text-dark"> These are the list of build tools discussed: </h5>
                 <Router>

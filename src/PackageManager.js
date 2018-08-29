@@ -5,7 +5,7 @@ import preview from './preview.png';
 class PackageManager extends Component {
     render() {
         return (
-            <div className="pm">
+            <div class="content">
                 <h1 className="text-dark"><b>Node Package Manager (NPM)</b></h1>
                 <p className="text-secondary">Package manager for the JavaScript programming language </p>
                 <h5 className="text-dark"> NPM is a package manager for Node.js packages, or modules.

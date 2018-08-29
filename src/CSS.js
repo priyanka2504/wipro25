@@ -5,7 +5,7 @@ import preview from './preview.png';
 class CSS extends Component {
     render() {
         return (
-            <div className="css">
+            <div class="content">
                 <h1 className="text-dark"><b>CSS</b></h1>
                 <p className="text-secondary">Style sheet language </p>
                 <h5 className="text-dark"> CSS describes the presentation of a document written in a markup language. </h5>

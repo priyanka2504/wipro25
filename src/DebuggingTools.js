@@ -5,7 +5,7 @@ import preview from './preview.png';
 class DebuggingTools extends Component {
     render() {
         return (
-            <div className="devtools">
+            <div class="content">
                 <h1 className="text-dark"><b> Chrome developer Tools </b></h1>
                 <p className="text-secondary">Web development tool to test and debug code </p>
                 <h5 className="text-dark"> Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. </h5>

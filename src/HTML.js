@@ -5,7 +5,7 @@ import preview from './preview.png';
 class HTML extends Component {
     render() {
         return (
-            <div className="html">
+            <div class="content">
                 <h1 className="text-dark"><b>HTML</b></h1>
                 <p className="text-secondary">Markup language for creating Web pages</p>
                 <h5 className="text-dark"> HTML is the foundation behind all web pages.

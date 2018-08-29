@@ -12,6 +12,7 @@ import PackageManager from './PackageManager';
 import Database from './Database';
 import DebuggingTools from './DebuggingTools';
 import Coding from './Coding';
+import wipro from './wipro.png';
 
 const routes = [
   {
@@ -73,9 +74,9 @@ const routes = [
 ];
 
 class App extends Component {
-  constructor () {
-    super(); 
-    year:'';
+  constructor() {
+    super();
+    year: '';
   }
 
   closeNav() {
@@ -85,14 +86,14 @@ class App extends Component {
   openNav() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
-        x.className += " responsive";
+      x.className += " responsive";
     } else {
-        x.className = "topnav";
+      x.className = "topnav";
     }
   }
   componentWillMount() {
     let date = new Date();
-    this.setState ({
+    this.setState({
       year: date.getFullYear()
     })
   }
@@ -103,6 +104,13 @@ class App extends Component {
       <div className="App">
         <Router>
           <div>
+            <div >
+          <header className="header">
+         <img src={wipro} class=" wipro rounded float-left" alt="wipro" width="80" height="80"/>
+         <h1 class="heading"> e-Learning Portal </h1>
+         </header>
+         </div>
+
             <div clasName="screen">
               <div class="sidebar">
                 <NavLink activeClassName='active' exact to="/">Home</NavLink>
@@ -119,23 +127,23 @@ class App extends Component {
               </div>
             </div>
 
-<div className="topnav" id="myTopnav">
-<span className="span" id="span" onClick={this.openNav.bind(this)}>&#9776; </span> 
-<br/><br/>
+            <div className="topnav" id="myTopnav">
+              <span className="span" id="span" onClick={this.openNav.bind(this)}>&#9776; </span>
+              <br /><br />
 
-<NavLink activeClassName='active' exact to="/">Home</NavLink>
-                <NavLink activeClassName='active' to="/html">HTML</NavLink>
-                <NavLink activeClassName='active' to="/css">CSS</NavLink>
-                <NavLink activeClassName='active' to="/javascript">JavaScript</NavLink>
-                <NavLink activeClassName='active' to="/codingGuidelines">Coding Guidelines</NavLink>
-                <NavLink activeClassName='active' to="/database">MongoDB</NavLink>
-                <NavLink activeClassName='active' to="/frameworks">Frameworks</NavLink>
-                <NavLink activeClassName='active' to="/build-tools">Build Tools</NavLink>
-                <NavLink activeClassName='active' to="/package-manager">Package Manager</NavLink>
-                <NavLink activeClassName='active' to="/debugging-tools">Debugging Tools</NavLink>
-                <NavLink activeClassName='active' to="/exercises">Exercises</NavLink>
-              
-</div>
+              <NavLink activeClassName='active' exact to="/">Home</NavLink>
+              <NavLink activeClassName='active' to="/html">HTML</NavLink>
+              <NavLink activeClassName='active' to="/css">CSS</NavLink>
+              <NavLink activeClassName='active' to="/javascript">JavaScript</NavLink>
+              <NavLink activeClassName='active' to="/codingGuidelines">Coding Guidelines</NavLink>
+              <NavLink activeClassName='active' to="/database">MongoDB</NavLink>
+              <NavLink activeClassName='active' to="/frameworks">Frameworks</NavLink>
+              <NavLink activeClassName='active' to="/build-tools">Build Tools</NavLink>
+              <NavLink activeClassName='active' to="/package-manager">Package Manager</NavLink>
+              <NavLink activeClassName='active' to="/debugging-tools">Debugging Tools</NavLink>
+              <NavLink activeClassName='active' to="/exercises">Exercises</NavLink>
+
+            </div>
 
 
 
@@ -171,16 +179,16 @@ class App extends Component {
           </div>
         </Router>
         <footer class="footer">
-                <div class="containers">
-                <span class="text-white"> Powered by Wipro Limited</span> <br/>
-                <span class="text-white"> Developed by 
+          <div class="containers">
+            <span class="text-white"> Powered by Wipro Limited</span> <br />
+            <span class="text-white"> Developed by
              <u> <a className="text-white" href="https://priyanka-portfolio.netlify.com" target="_blank" rel="noopener noreferrer"> Priyanka Suresh </a> </u>
-                &copy; {this.state.year}
-                
-                 </span> 
-              
-                </div>
-                </footer>
+              &copy; {this.state.year}
+
+            </span>
+
+          </div>
+        </footer>
       </div>
     );
   }

@@ -4,7 +4,7 @@ import './App.css';
 class Exercises extends Component {
     render() {
         return (
-            <div className="exercises">
+            <div class="content">
                 <h1 className="text-dark"><b>Tasks Executed</b></h1>
                 <div className="links">
                     <h5 className="text-dark"> Below are the various tasks performed using all the above mentioned technologies </h5>

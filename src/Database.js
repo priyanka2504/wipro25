@@ -5,7 +5,7 @@ import preview from './preview.png';
 class Database extends Component {
     render() {
         return (
-            <div className="database">
+            <div class="content">
                 <h1 className="text-dark"><b>MongoDB</b></h1>
                 <p className="text-secondary">Open-source document database  </p>
                 <h5 className="text-dark"> MongoDB is leading NoSQL database written in C++.
