@@ -107,7 +107,7 @@ class App extends Component {
             <div >
           <header className="header">
          <img src={wipro} class=" wipro rounded float-left" alt="wipro" width="80" height="80"/>
-         <h1 class="heading"> e-Learning Portal </h1>
+         <h2 class="heading" font-size="10vw"> e-Learning Portal </h2>
          </header>
          </div>
 
