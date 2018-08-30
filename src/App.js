@@ -12,7 +12,8 @@ import PackageManager from './PackageManager';
 import Database from './Database';
 import DebuggingTools from './DebuggingTools';
 import Coding from './Coding';
-import wipro from './wipro.png';
+import wipro from './wipro.jpg';
+import Videos from './videos.js';
 
 const routes = [
   {
@@ -67,6 +68,11 @@ const routes = [
     main: () => <DebuggingTools />
   },
   {
+    path: "/videos",
+    exact: true,
+    main: () => <Videos />
+  },
+  {
     path: "/exercises",
     exact: true,
     main: () => <Exercises />
@@ -106,13 +112,14 @@ class App extends Component {
           <div>
             <div >
           <header className="header">
-         <img src={wipro} class=" wipro rounded float-left" alt="wipro" width="80" height="80"/>
-         <h2 class="heading" font-size="10vw"> e-Learning Portal </h2>
+         <img src={wipro} className=" wipro rounded float-left logo" alt="wipro" width="80" height="80"/>
+         <h2 className="heading" font-size="10vw"> e-Learning Portal </h2>
          </header>
+       
          </div>
-
+          <div className="scroll">
             <div clasName="screen">
-              <div class="sidebar">
+              <div className="sidebar">
                 <NavLink activeClassName='active' exact to="/">Home</NavLink>
                 <NavLink activeClassName='active' to="/html">HTML</NavLink>
                 <NavLink activeClassName='active' to="/css">CSS</NavLink>
@@ -123,8 +130,10 @@ class App extends Component {
                 <NavLink activeClassName='active' to="/build-tools">Build Tools</NavLink>
                 <NavLink activeClassName='active' to="/package-manager">Package Manager</NavLink>
                 <NavLink activeClassName='active' to="/debugging-tools">Debugging Tools</NavLink>
+                <NavLink activeClassName='active' to="/videos">Videos</NavLink>
                 <NavLink activeClassName='active' to="/exercises">Exercises</NavLink>
               </div>
+            </div>
             </div>
 
             <div className="topnav" id="myTopnav">
@@ -141,6 +150,7 @@ class App extends Component {
               <NavLink activeClassName='active' to="/build-tools">Build Tools</NavLink>
               <NavLink activeClassName='active' to="/package-manager">Package Manager</NavLink>
               <NavLink activeClassName='active' to="/debugging-tools">Debugging Tools</NavLink>
+              <NavLink activeClassName='active' to="/videos">Videos</NavLink>
               <NavLink activeClassName='active' to="/exercises">Exercises</NavLink>
 
             </div>
@@ -178,11 +188,12 @@ class App extends Component {
             </div>
           </div>
         </Router>
+       
         <footer class="footer">
           <div class="containers">
-            <span class="text-white"> Powered by Wipro Limited</span> <br />
-            <span class="text-white"> Developed by
-             <u> <a className="text-white" href="https://priyanka-portfolio.netlify.com" target="_blank" rel="noopener noreferrer"> Priyanka Suresh </a> </u>
+            <span class="text-dark"> Powered by Wipro Limited</span> <br />
+            <span class="text-dark"> Developed by
+             <u> <a className="text-dark" href="https://priyanka-portfolio.netlify.com" target="_blank" rel="noopener noreferrer"> Priyanka Suresh </a> </u>
               &copy; {this.state.year}
 
             </span>
